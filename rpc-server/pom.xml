@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>simple-rpc</artifactId>
+        <groupId>com.xxs</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rpc-provider</artifactId>
+
+    <dependencies>
+        <!-- rpc-core -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-core</artifactId>
+        </dependency>
+
+        <!--rpc 服务 -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-facade</artifactId>
+        </dependency>
+
+        <!-- 注册中心 -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-registry</artifactId>
+        </dependency>
+
+        <!-- 编解码 序列化 -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-protocol</artifactId>
+        </dependency>
+
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- netty -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+
+        <!-- log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.29</version>
+        </dependency>
+    </dependencies>
+
+</project>

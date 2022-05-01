@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>simple-rpc</artifactId>
+        <groupId>com.xxs</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rpc-client</artifactId>
+
+    <dependencies>
+        <!-- web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- core -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-core</artifactId>
+        </dependency>
+
+        <!-- rpc 服务 -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-facade</artifactId>
+        </dependency>
+
+        <!-- rpc 注册中心 -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-registry</artifactId>
+        </dependency>
+
+        <!-- 编解码 序列化 -->
+        <dependency>
+            <groupId>com.xxs</groupId>
+            <artifactId>rpc-protocol</artifactId>
+        </dependency>
+
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- netty -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
