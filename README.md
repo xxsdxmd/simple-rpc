@@ -6,8 +6,7 @@
 
 ## 1.架构
 
-https://github.com/xxsdxmd/simple-rpc/blob/main/img/rpc.png
-
+![Image](https://github.com/xxsdxmd/simple-rpc/raw/main/img/rpc.png)
 
 ## 2.模块
 
