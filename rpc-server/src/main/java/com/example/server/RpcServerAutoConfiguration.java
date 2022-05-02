@@ -29,7 +29,6 @@ public class RpcServerAutoConfiguration {
     @Bean
     public RpcServer init() throws Exception {
         RegistryType type = RegistryType.valueOf(rpcProperties.getRegistryType());
-        System.out.println(type);
         RegistryService serviceRegistry = RegistryFactory.getInstance(rpcProperties.getRegisterAddr(), type);
         return new RpcServer(rpcProperties.getServicePort(), serviceRegistry);
     }

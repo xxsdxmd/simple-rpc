@@ -89,7 +89,7 @@ public class RpcServer implements InitializingBean, BeanPostProcessor {
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
 
             ChannelFuture channelFuture = bootstrap.bind(this.serverAddress, this.serverPort).sync();
-            log.error("server addr {} started on port {}" + this.serverAddress, new Throwable());
+            log.info("server addr {} started on port {}" + this.serverAddress, new Throwable());
             channelFuture.channel().closeFuture().sync();
         } finally {
             boss.shutdownGracefully();

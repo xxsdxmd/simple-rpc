@@ -16,13 +16,5 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.6.7" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.19" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.19" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.19" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.19" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.19" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.19" level="project" />
   </component>
 </module>

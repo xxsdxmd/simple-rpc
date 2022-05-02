@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
+ * 负载均衡算法
  * @author xxs
  * @create 2022/5/1 21:48
  */

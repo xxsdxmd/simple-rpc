@@ -8,7 +8,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rpc-provider</artifactId>
+    <artifactId>rpc-server</artifactId>
 
     <dependencies>
         <!-- rpc-core -->
@@ -54,11 +54,13 @@
             <version>1.2.17</version>
         </dependency>
 
+        <!-- yaml -->
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
             <version>1.29</version>
         </dependency>
+
     </dependencies>
 
 </project>
